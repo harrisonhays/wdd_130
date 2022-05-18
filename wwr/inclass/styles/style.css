@@ -1,0 +1,114 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav a{
+    text-align: center;
+    background-color: #252627;
+    color: snow;
+    text-decoration: none;
+}
+
+#hero-msg h1, #hero-msg h4{
+    text-align: center;
+}
+
+.button-box{
+    text-align: center;
+}
+
+main section{
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+}
+
+body{
+    background-color: snow;
+}
+
+header{
+    background-color: snow;
+}
+
+nav a:hover{
+    background-color: turquoise;
+    color: firebrick;
+}
+
+.book{
+    background-color: #252627;
+    color: snow;
+    text-decoration: none;
+}
+
+.join{
+    background-color: snow;
+    color: #252627;
+    text-decoration: none;
+}
+
+.book:hover{
+    background-color: turquoise;
+    color: firebrick;
+}
+
+.join:hover{
+    background-color: turquoise;
+    color: firebrick;
+}
+
+#background{
+    background-color: snow;
+}
+
+.msg{
+    background-color: #252627;
+    color: snow;
+}
+
+footer{
+    background-color: snow;
+}
+
+.home-title{
+    background-color: snow;
+    color: #252627;
+}
+
+h4{
+    background-color: snow;
+    color: #252627;
+}
+
+    .msg h2{
+        background-color: #252627;
+        color: snow;
+}
+
+.msg p{
+    background-color: #252627;
+    color: snow;
+}
+
+footer h3{
+    background-color: snow;
+    color: #252627;
+}
+
+footer a{
+    background-color: snow;
+    color: #252627;
+    text-decoration: none;
+}
+
+footer a:hover{
+    background-color: snow;
+    color: #252627;
+}
+.logo, .icon{
+    width: 80px
+}
