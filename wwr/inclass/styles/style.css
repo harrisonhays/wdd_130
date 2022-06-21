@@ -137,6 +137,10 @@ nav a:hover{
     text-align: center;
 }
 
+#faqin-stuff{
+    text-align: center;
+}
+
 .accordion{
     background-color: snow;
     color: #252627;
@@ -145,9 +149,12 @@ nav a:hover{
     width: 60%;
     height: 100px;
     text-align: center;
+    justify-content: center;
+    justify-items: center;
     transition: 0.4s;
     box-shadow: 5px 5px 10px #6f7364;
     margin-top: 40px;
+    
     line-height: 1.5em;
     font-size: 1.5em;
     border-width: 1px;
@@ -156,6 +163,7 @@ nav a:hover{
 .panel{
     color: firebrick;
     font-size: 1.2em;
+    text-align: center;
 }
 
 footer{
