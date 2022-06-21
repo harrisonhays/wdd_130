@@ -128,6 +128,36 @@ nav a:hover{
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+.faq-header{
+    background-color: turquoise;
+    color: snow;
+    line-height: 1.5em;
+    padding: 35px;
+    box-shadow: 5px 5px 10px #6f7364;
+    text-align: center;
+}
+
+.accordion{
+    background-color: snow;
+    color: #252627;
+    cursor: pointer;
+    padding: 5px;
+    width: 60%;
+    height: 100px;
+    text-align: center;
+    transition: 0.4s;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-top: 40px;
+    line-height: 1.5em;
+    font-size: 1.5em;
+    border-width: 1px;
+}
+
+.panel{
+    color: firebrick;
+    font-size: 1.2em;
+}
+
 footer{
     background-color: snow;
     padding: 25px 50px;
