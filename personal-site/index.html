@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link type="text/css" rel="stylesheet" href="styles/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById('id01');
+        
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+        </script>
+</head>
+
+<body>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/book-logo.png" alt="H2 books logo">
+            </a>
+            <nav>
+                <a id="home-link" href="index.html">Home</a>
+                <a id="shop-link" href="book-shop.html">Books</a>
+                <a id="where-link" href="where-im-at.html">Where I'm At</a>
+            </nav>
+        </header>
+
+       
+            <div id="hero">
+                <div id="hero-box">
+                    <img id="hero-img" src="images/digital.jpg" alt="Books and kindle">
+                </div>
+                <section id="hero-msg">
+                    <h1 class="home-title">Welcome home!</h1>
+                    <p id="get-it">(Get it? Cause this is the home page?)</p>
+                    <h4>This is my website where you'll find information about myself, what I'm working on, where I'm at if I'm on a signing tour, and of course my books and where to buy them! Come for the literature and stay for the cat pics.</h4>
+                </section>
+                 <!-- Button to open the modal -->
+<button id="sign-up-button" onclick="document.getElementById('id01').style.display='block'">Sign Up for my Newsletter!</button>
+
+<!-- The Modal (contains the Sign Up form) -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">X</span>
+  <form class="modal-content" action="/action_page.php">
+    <div class="container">
+      <h1>Sign Up</h1>
+      <p>Enter your email to sign up for my e-newsletter and get updates on publishing dates, book signings, and sales on my books!</p>
+      <hr>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <p>By hitting "sign up", you recognize that I'll be sending you my newsletter which may or may not strike you as spam depending on how much you care.</p>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signup">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>
+            </div>
+
+       
+
+        <main>
+        
+                <img id="por" src="images/Ya_Boi.jpg" alt="Portrait of me">
+            <div id="bio">
+                <h1>A Little About Me</h1>
+                <p>Harrison Hays is an American author and business person. He discovered a passionate love-hate relationship for writing during his time in Germany as he was serving as a missionary for The Church of Jesus Christ of Latter Day Saints. While he would periodically write in sporadic spurts, he never tried to give writing a go as a full time career as he was afraid of not being able to support a family on the income at that time.</p>
+
+                   <p> Harrison studied Exercise Physiology at Brigham Young University Idaho for 3 semesters to become a personal trainer until realizing he didn’t need a degree for that, at which he dropped out. After spending a few years bouncing between jobs and training on the side, he realized that his current route would not land him where he wanted to ultimately be in life. After deciding to start a business and said business tanking horribly, he decided to return to school to study and eventually gained a degree in Computer Information Technology.</p>
+                    
+                   <p>It was there that he met the love of his life [blank] and got married shortly before graduating. After graduation Harrison spent seven years working various jobs in the IT field before retiring through an aggressive rental real estate acquisition plan that he and his wife [blank] had put together. </p>
+                    
+                    <p> Upon becoming bored in his early retirement, Harrison decided to pick up writing again more seriously, publishing “The Redlands”, his first book in the The Blood Works trilogy. It was an instant success to which he acredits his wife’s amazing skills with marketing. He has since finished the series and has begun working on other projects.</p>
+            </div>
+        </main>
+
+    </div>
+    
+    <footer>
+        <h3>H2 books &copy; 2022 - Harrison Hays</h3>
+    <h3><a id="site-plan" href="site-plan.html">Site Plan</a></h3>
+    <div class="social">
+        <a href="https://facebook.com" target="_blank">
+            <img class="social_pic" src="images/facebook.png" alt="fb icon">
+        </a>
+        <a href="https://twitter.com" target="_blank">
+            <img class="social_pic" src="images/twitter.png" alt="twitter icon">
+        </a>
+        <a  href="https://instagram.com" target="_blank">
+            <img class="social_pic" src="images/instagram.png" alt="instagram icon">
+        </a>
+        </div>
+    </footer>
+    
+</body>
+</html>
